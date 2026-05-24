@@ -46,7 +46,7 @@ form {
     border-radius: 15px;
     box-shadow: inset 1px 1px 3px 0 rgba(255, 255,255, .7),
                 inset -1px -1px 3px 0 rgba(255, 255,255, .7);
-    padding: clamp(.5rem, calc(10vw + 1rem), 3rem);
+    padding: clamp(.2rem, calc(10vw + 1rem), 3rem);
     backdrop-filter: blur(30px);
 }
 
@@ -196,4 +196,6 @@ button::after {
     .label-position {
         min-width: 100%;
     }
+
+    
 }
