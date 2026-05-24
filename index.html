@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <form method="post">
+            <div class="form-container">
+                <h1>Contact Us</h1>
+                <p>Please fill out the form below for more info.</p>
+                <div class="group">
+                    <div class="label-position">
+                        <label for="f-name">First Name</label>
+                        <input type="text" name="first_Name" id="f-name" placeholder="First Name" required>
+                    </div>
+                    <div class="label-position">
+                        <label for="l-name">Last Name</label>
+                        <input type="text" name="last_Name" id="l-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="label-position">
+                        <label for="email" required>Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="label-position">
+                        <label for="phone" placeholder="Phone Number">Phone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                    </div>
+                    
+                </div>
+                <div class="group-textarea">
+                    <div class="label-position">
+                        <label for="info">Send Message</label>
+                        <textarea name="info" id="info" placeholder="Send us a message..."></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
