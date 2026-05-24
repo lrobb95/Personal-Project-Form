@@ -198,7 +198,7 @@ button::after {
     }
 }
 
-@media (width < 426px) {
+@media (width < 480px) {
     label {
         font-size: .85rem;
     }
