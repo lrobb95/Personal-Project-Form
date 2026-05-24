@@ -196,9 +196,7 @@ button::after {
     .label-position {
         min-width: 100%;
     }
-}
 
-@media (width < 480px) {
     label {
         font-size: .85rem;
     }
@@ -220,3 +218,26 @@ button::after {
         max-height: 100%;
     }
 }
+
+/* @media (width < 480px) {
+    label {
+        font-size: .85rem;
+    }
+
+    input {
+        padding: .45rem;
+    }
+
+    form {
+        max-height: 100%;
+        padding: .5rem;
+    }
+
+    form p {
+        margin-bottom: .5rem;
+    }
+
+    .form-container {
+        max-height: 100%;
+    }
+} */
